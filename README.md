@@ -49,23 +49,5 @@ The Weather Forecast App is an Android-based application designed to provide use
 - **Util Classes**:
   - Contains utility classes for network operations, JSON parsing, and other helper functions.
 
-### Development Process
-
-1. **Environment Setup**:
-   - Install and configure Android Studio with the necessary development tools.
-2. **API Integration**:
-   - Integrate with a weather API to fetch and display weather data.
-3. **Interface Design**:
-   - Design the user interface using Android Studio's Layout Editor.
-4. **Functionality Implementation**:
-   - Implement weather fetching and display functionalities.
-   - Develop custom adapters for displaying weather data in lists.
-   - Integrate GPS or network services for automatic location detection.
-   - Develop additional functionalities such as the music player and calendar.
-5. **Testing & Debugging**:
-   - Conduct unit testing and functional testing to ensure all features work as expected.
-   - Use Android Studio's debugging tools to fix any issues or bugs.
-6. **Optimization**:
-   - Optimize the app for performance, user experience, and compatibility across different Android versions.
 
 
