@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MusicActivity">
+
+    <ImageView
+        android:id="@+id/img_music"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/beyond"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:progressTint="#D61818"
+        android:thumbTint="#ED20CB"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@+id/btn_last"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/last"/>
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:layout_marginHorizontal="10dp"
+            />
+        <ImageView
+            android:id="@+id/btn_start_pause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/start"
+            android:layout_marginHorizontal="10dp"
+            android:text="播放/暂停"/>
+        <ImageView
+            android:id="@+id/btn_forward"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/forward"
+            android:layout_marginHorizontal="10dp"
+            android:text="快进"/>
+        <ImageView
+            android:id="@+id/btn_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/next"
+            android:layout_marginHorizontal="10dp"
+            android:text="下一首"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/lv_musics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
