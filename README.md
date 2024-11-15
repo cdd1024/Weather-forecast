@@ -2,52 +2,29 @@
 
 ## Project Overview
 
-The Weather Forecast App is an Android-based application designed to provide users with real-time weather information and forecasts for their desired locations. The app utilizes a weather API to fetch and display current weather conditions, as well as future forecasts for multiple days.
+The Weather Forecast App is an Android app that provides real-time weather info and forecasts. It uses a weather API to fetch data and displays current conditions and future forecasts.
 
 ### Key Features
 
-- **Current Weather Display**:
-  - The app fetches and displays current weather information, including temperature, humidity, wind speed, and weather description.
-- **Future Weather Forecast**:
-  - Provides weather forecasts for multiple days, with detailed information on each day's weather conditions.
-- **Customizable Weather Data Display**:
-  - Weather data is presented in a user-friendly list format, with corresponding weather icons for easy understanding.
-- **City Selection**:
-  - Users can select and switch between different cities to view their weather forecasts.
-- **Automatic Location Detection**:
-  - The app uses GPS or network services to automatically determine the user's location and display the corresponding weather forecast.
-- **Additional Functionalities**:
-  - **Music Player Plugin**: Allows users to play songs stored on their SD card or online.
-  - **Calendar Plugin**: Displays dates by day, week, or month, and allows users to add, delete, or modify events.
+- **Current Weather**: Displays temp, humidity, wind speed, and weather description.
+- **Future Forecast**: Provides multi-day forecasts with detailed info.
+- **City Selection**: Users can switch between cities.
+- **Location Detection**: Automatically determines user's location.
+- **Additional Features**: Music player and calendar plugin.
 
 ## Technical Stack
 
-- **Development Environment**:
-  - Android Studio
-- **Programming Language**:
-  - Java
-- **Data Retrieval**:
-  - HTTP protocol to fetch weather data in JSON format from a weather API.
-- **Data Storage**:
-  - SQLite for storing user data and preferences.
-- **Design Patterns**:
-  - Custom adapters for displaying weather data in lists.
-  - MVC architecture for separation of concerns.
+- **Environment**: Android Studio
+- **Language**: Java
+- **Data Retrieval**: HTTP, JSON from weather API
+- **Storage**: SQLite
+- **Design**: Custom adapters, MVC architecture
 
 ### Project Structure
 
-- **Main Activity**:
-  - Handles the main interface and user interactions.
-- **Weather Activity**:
-  - Displays detailed weather information for a selected city.
-- **City Selection Activity**:
-  - Allows users to select and switch between different cities.
-- **Music Player Activity**:
-  - Hosts the music player interface with functionalities such as play, pause, skip, and song information.
-- **Calendar Activity**:
-  - Hosts the calendar interface with functionalities to view and modify events.
-- **Util Classes**:
-  - Contains utility classes for network operations, JSON parsing, and other helper functions.
-
-
-
+- **Main Activity**: Main interface and user interactions.
+- **Weather Activity**: Detailed weather info for selected city.
+- **City Selection**: City selection interface.
+- **Music Player**: Music player functionalities.
+- **Calendar**: Calendar interface with event management.
+- **Util Classes**: Network, JSON parsing, and other utilities.
